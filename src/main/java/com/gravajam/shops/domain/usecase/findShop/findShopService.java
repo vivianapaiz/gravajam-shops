@@ -1,4 +1,4 @@
-package com.gravajam.shops.usecase.findShop;
+package com.gravajam.shops.domain.usecase.findShop;
 
 import java.util.List;
 

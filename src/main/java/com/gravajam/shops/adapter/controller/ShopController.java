@@ -1,7 +1,5 @@
 package com.gravajam.shops.adapter.controller;
 
-import com.gravajam.shops.usecase.createShop.CreateShopUseCase;
-import com.gravajam.shops.usecase.findShop.FindShopUseCase;
 import com.gravajam.shops.adapter.controller.model.ShopRequest;
 import com.gravajam.shops.shared.ApiResponse;
 
@@ -11,16 +9,16 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 import com.gravajam.shops.domain.entity.Shop;
+import com.gravajam.shops.domain.usecase.createShop.CreateShopUseCase;
+import com.gravajam.shops.domain.usecase.findShop.FindShopUseCase;
 
 
 @RestController
-//@RequestMapping("/api")
 public class ShopController {
 
     @Autowired

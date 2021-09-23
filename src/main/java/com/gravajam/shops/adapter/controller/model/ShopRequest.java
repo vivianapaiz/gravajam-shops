@@ -44,7 +44,7 @@ public class ShopRequest {
         return new Shop(this.getId(), this.getName(), this.getLocation(), this.getUrlImage());
     }
 
-    public static ShopRequest tShopRequest (Shop shop){
+    public static ShopRequest toShopRequest (Shop shop){
         ShopRequest shopRequest = new ShopRequest();
 
         shopRequest.setId(shop.getId());

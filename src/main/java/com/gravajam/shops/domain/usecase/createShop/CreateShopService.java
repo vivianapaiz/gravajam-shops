@@ -1,4 +1,4 @@
-package com.gravajam.shops.usecase.createShop;
+package com.gravajam.shops.domain.usecase.createShop;
 
 import com.gravajam.shops.domain.entity.Shop;
 import com.gravajam.shops.domain.port.ShopRepository;
